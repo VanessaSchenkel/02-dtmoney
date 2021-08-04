@@ -1,6 +1,6 @@
 import { GlobalStyle } from './styles/global';
 import Modal from 'react-modal';
-import { TransactionsContext, TransactionsProvider } from "./TransactionsContext";
+import { useTransactions, TransactionsProvider } from "./hooks/useTransactions";
 import { Header } from "./components/Header";
 import { Dashboard } from "./components/Dashboard";
 import { NewTransactionalModal } from "./components/NewTransactionModal";
